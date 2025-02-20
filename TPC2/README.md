@@ -10,8 +10,8 @@ Este programa está dividido em duas partes:
 
 A parte do parser foi feita iterando por cada linha do csv tendo em atenção campos que estão distríbuidos por várias linhas e criando uma lista de listas. Cada lista da lista principal corresponde a cada peça do CSV.
 
-Depois esse método é chamado pelos outros três métodos que resolvem os 3 problemas propostos com os resultados obtidos na pasta de [outputs](/PL2025-A104081/TPC2/outputs/).
+Depois esse método é chamado pelos outros três métodos que resolvem os 3 problemas propostos com os resultados obtidos na pasta de [outputs](/outputs/).
 
-- Compositores ordernados: [resultado](/PL2025-A104081/TPC2/outputs/ordered_composers.txt)
-- Distribuição por período: [resultado](/PL2025-A104081/TPC2/outputs/distribution_per_period.txt)
-- Títulos em cada período: [resultado](/PL2025-A104081/TPC2/outputs/titles_per_period.txt)
+- Compositores ordernados: [resultado](/outputs/ordered_composers.txt)
+- Distribuição por período: [resultado](/outputs/distribution_per_period.txt)
+- Títulos em cada período: [resultado](/outputs/titles_per_period.txt)
