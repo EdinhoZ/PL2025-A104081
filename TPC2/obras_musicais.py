@@ -1,27 +1,5 @@
 import os
 import sys
-import re
-
-def parse_csv2(filename):
-    pattern = r'([^;]+);(?:"((?:[^"]|"(?!;))*?)"|([^;]+));([^;]+);([^;]+);([^;]+);([^;]*)\n?'
-
-    with open(filename, 'r', encoding='utf-8') as file:
-        next(file)
-        content = file.read()
-        matches = re.findall(pattern, content)
-        parsed_data = []
-        
-        for match in matches:
-            field1 = match[0]
-            field2 = match[1] if match[1] else match[2]
-            field3 = match[3]
-            field4 = match[4]
-            field5 = match[5]
-            field6 = match[6]
-            parsed_data.append([field1, field2, field3, field4, field5, field6])
-        
-        return parsed_data
-
 
 def parse_csv(filename):
     rows = []
@@ -83,34 +61,6 @@ def order_composers(filename, outputs):
             f.write(composer + "\n")
         
         return ordered_composers
-
-
-def print_pieces(filename):
-    pieces = parse_csv(filename)
-
-    dict_pieces = {}
-    for piece in pieces:
-        title = piece[0]
-        description = piece[1]
-        year = piece[2]
-        period = piece[3]
-        composer = piece[4]
-        duration = piece[5]
-        id = piece[6]
-
-        if title not in dict_pieces:
-            dict_pieces[title] = []
-
-        dict_pieces[title].append({
-            "Descrição": description,
-            "Ano de Criação": year,
-            "Período": period,
-            "Compositor": composer,
-            "Duração": duration,
-            "Id": id
-        })
-    
-    return dict_pieces
 
 def distribute_per_period(filename, outputs):
     pieces = parse_csv(filename)
