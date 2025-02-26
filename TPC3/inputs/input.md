@@ -2,7 +2,7 @@
 ## Subtítulo
 Texto normal com **negrito** e *itálico*.
 
-[OpenAI](https://openai.com)
+Como pode ser consultado em [página da UC](http://www.uc.pt)
 
 ![Imagem](https://via.placeholder.com/150)
 
