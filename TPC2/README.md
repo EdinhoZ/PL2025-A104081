@@ -12,6 +12,6 @@ A parte do parser foi feita iterando por cada linha do csv tendo em atenção ca
 
 Depois esse método é chamado pelos outros três métodos que resolvem os 3 problemas propostos com os resultados obtidos na pasta de [outputs](/TPC2/outputs/).
 
-- Compositores ordernados: [resultado](/TPC2/outputs/ordered_composers.txt)
-- Distribuição por período: [resultado](/TPC2/outputs/distribution_per_period.txt)
-- Títulos em cada período: [resultado](/TPC2/outputs/titles_per_period.txt)
+- Compositores ordernados: [Resultado](/TPC2/outputs/ordered_composers.txt)
+- Distribuição por período: [Resultado](/TPC2/outputs/distribution_per_period.txt)
+- Títulos em cada período: [Resultado](/TPC2/outputs/titles_per_period.txt)
