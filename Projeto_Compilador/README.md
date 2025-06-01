@@ -23,9 +23,10 @@
 3. Análise Léxica
 4. Análise Sintática
 5. Análise Semântica
-6. Otimizações
-7. Testes e validação
-8. Conclusões
+6. Geração de Código
+7. Otimizações
+8. Testes e validação
+9. Conclusões
 
 # Introdução
 O presente projeto consiste na implementação de um compilador para a linguagem Pascal, desenvolvido no âmbito da unidade curricular de Processamento de Linguagens. Este compilador tem como objetivo a tradução de programas escritos em Pascal para um código intermédio e, posteriormente, é gerado o código-máquina correspondente para ser executado na [máquina virtual disponibilizada pela equipa docente](https://ewvm.epl.di.uminho.pt/).
